@@ -345,28 +345,85 @@ footer{
     background-color: #010101;
     height: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 footer h2{
+    margin-right: 20px;
     color: #fff;
     font-family: 'Titillium Web', sans-serif; 
     font-size: 24px;
     font-weight: 700;
 }
-.ponto{
-    background-color: #fff;
-    width: 5px;
-    width: 5px;
+
+
+.box_footer{
+    height: 25px;
+    display: flex;
+     /* justify-content: center;  */
+     align-items: center; 
 }
+
+
 
 footer p{
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     font-weight: 600;
+    /* height: 250px; */
 }
+
+footer hr{
+    margin-right: 10px;
+    background-color: #fff;
+    color: #fff;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+}
+
+
+
+input{
+    
+    background-color: #fff;
+    /* background-image:url(assets/email.png); */
+    height: 40px;
+    width: 195px;
+}
+
+footer samp{
+    background-color: #001F70;
+    height: 40px;
+    width: 195px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    height: 47px;
+    width: 47px;
+}
+
+.divulgação{
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+
 
 
 
